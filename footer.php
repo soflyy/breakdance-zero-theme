@@ -1,0 +1,3 @@
+<?php
+
+\Unicorn\Themeless\outputFootHtml();
