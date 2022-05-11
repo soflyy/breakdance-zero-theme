@@ -1,3 +1,0 @@
-<?php
-
-\Unicorn\Themeless\outputHeadHtml();
