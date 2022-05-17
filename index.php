@@ -1,8 +1,8 @@
 <?php
-if (defined('__UNICORN_DIR__')) {
-    require_once __UNICORN_DIR__ . "/plugin/themeless/theme-simulator/unicorn-no-template.php";
+if (defined('__BREAKDANCE_DIR__')) {
+    require_once __BREAKDANCE_DIR__ . "/plugin/themeless/theme-simulator/breakdance-no-template.php";
 } else {
-   // TODO what do we want to put in there? A link to the plugins dir? A link to where they can buy Unicorn?
+   // TODO what do we want to put in there? A link to the plugins dir? A link to where they can buy Breakdance?
     ?>
     <section style="
     max-width: 600px;
@@ -14,9 +14,9 @@ if (defined('__UNICORN_DIR__')) {
     font-family: sans-serif;
 ">
         <p>
-            You're seeing an empty page because you're using <b>Unicorn Zero Theme</b>, but you don't have Unicorn installed and enabled.
+            You're seeing an empty page because you're using <b>Breakdance Zero Theme</b>, but you don't have Breakdance installed and enabled.
         </p>
-        <p style="font-size: 18px; font-weight: bold;">Please install and enable Unicorn.</p>
+        <p style="font-size: 18px; font-weight: bold;">Please install and enable Breakdance.</p>
     </section>
 <?php
 }
