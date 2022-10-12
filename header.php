@@ -1,0 +1,3 @@
+<?php
+
+\Breakdance\Themeless\outputHeadHtml();
