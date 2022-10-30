@@ -1,5 +1,15 @@
 <?php
 
+if (!function_exists('breakdance_zero_theme_setup')) {
+    function breakdance_zero_theme_setup()
+    {
+        add_theme_support('title-tag');
+    }
+}
+
+add_action('after_setup_theme', 'breakdance_zero_theme_setup');
+
+
 add_action( 'admin_notices', 'warn_if_breakdance_is_disabled' );
 
 function warn_if_breakdance_is_disabled() {
